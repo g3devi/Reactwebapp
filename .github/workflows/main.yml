@@ -29,5 +29,5 @@ jobs:
         with:
           app-name: testreactappserv
           slot-name: <optional-slot-name> # If deploying to a slot
-          publish-profile: ${{ secrets.AZURE_LOGIN }}
+          publish-profile: g.devi.duvvuri@accenture.com
           package: .
