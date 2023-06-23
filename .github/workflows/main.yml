@@ -29,5 +29,11 @@ jobs:
         with:
           app-name: testreactappserv
           slot-name: <optional-slot-name> # If deploying to a slot
-          publish-profile: ${{ secrets.AZURE_LOGIN }}
+          publish-profile: {
+                            "clientId": "d5c25802-78e9-4eaa-873e-c7a9cd2d0a84",
+                            "clientSecret": "s848Q~JiUkaImN4fCHZGpSba4X0GSkjoFJz~zbej",
+                            "subscriptionId": "61fc7a8e-363a-4dce-849e-5b13de154857",
+                            "tenantId": "fc190238-d438-4d14-81a5-62d574913928",
+                            (...)
+                           }
           package: .
